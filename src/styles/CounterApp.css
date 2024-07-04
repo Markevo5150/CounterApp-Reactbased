@@ -1,0 +1,42 @@
+.button-section {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 15px;
+  border-radius: 14px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: lightblue;
+  }
+}
+
+.app-title {
+  color: gold;
+  margin-bottom: 50px;
+}
+
+.counter-display {
+  color: #209085;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.less-button {
+  cursor: pointer;
+  &:hover {
+    background-color: lightcoral;
+  }
+}
+
+.reset-button {
+  cursor: pointer;
+  &:hover {
+    background-color: lightgreen;
+  }
+}
